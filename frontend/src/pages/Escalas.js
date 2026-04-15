@@ -53,10 +53,6 @@ function Escala() {
   };
 
 
-
-
-
-
   // 🚀 GERAR MATRIZ+
   const gerarMatriz = async () => {
   if (!mes || !ano) {
