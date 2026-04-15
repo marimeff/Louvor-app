@@ -1,0 +1,56 @@
+2026/04/14-12:43:07.206 2bb0 Reusing MANIFEST C:\Users\Mariana Moreno\Desktop\Louvor-app\backend\tokens\louvor-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/14-12:43:07.210 2bb0 Recovering log #822
+2026/04/14-12:43:07.254 2bb0 Reusing old log C:\Users\Mariana Moreno\Desktop\Louvor-app\backend\tokens\louvor-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000822.log 
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #812
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #813
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #814
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #815
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #816
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #817
+2026/04/14-12:43:07.255 2bb0 Delete type=2 #818
+2026/04/14-12:43:07.256 2bb0 Delete type=2 #825
+2026/04/14-12:43:08.654 5474 Level-0 table #838: started
+2026/04/14-12:43:08.677 5474 Level-0 table #838: 848304 bytes OK
+2026/04/14-12:43:08.678 5474 Delete type=0 #822
+2026/04/14-12:43:08.681 5474 Manual compaction at level-0 from '\x00C\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at '\x00C\x00\x00\x05' @ 3161009 : 1
+2026/04/14-12:43:08.681 5474 Compacting 1@0 + 0@1 files
+2026/04/14-12:43:08.693 5474 Generated table #839@0: 14844 keys, 265041 bytes
+2026/04/14-12:43:08.699 5474 Generated table #840@0: 893 keys, 62500 bytes
+2026/04/14-12:43:08.699 5474 Compacted 1@0 + 0@1 files => 327541 bytes
+2026/04/14-12:43:08.699 5474 compacted to: files[ 0 2 22 0 0 0 0 ]
+2026/04/14-12:43:08.700 5474 Delete type=2 #838
+2026/04/14-12:43:08.700 5474 Manual compaction at level-0 from '\x00C\x00\x00\x05' @ 3161009 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/14-12:43:08.727 2bb0 Compacting 1@1 + 8@2 files
+2026/04/14-12:43:08.823 2bb0 Generated table #841@1: 32510 keys, 2243984 bytes
+2026/04/14-12:43:08.914 2bb0 Generated table #842@1: 14113 keys, 2197772 bytes
+2026/04/14-12:43:08.947 2bb0 Generated table #843@1: 6732 keys, 2129505 bytes
+2026/04/14-12:43:09.022 2bb0 Generated table #844@1: 93370 keys, 2242593 bytes
+2026/04/14-12:43:09.103 2bb0 Generated table #845@1: 101424 keys, 2251182 bytes
+2026/04/14-12:43:09.180 2bb0 Generated table #846@1: 100776 keys, 2250038 bytes
+2026/04/14-12:43:09.247 2bb0 Generated table #847@1: 100778 keys, 2251685 bytes
+2026/04/14-12:43:09.290 2bb0 Generated table #848@1: 36275 keys, 803612 bytes
+2026/04/14-12:43:09.290 2bb0 Compacted 1@1 + 8@2 files => 16370371 bytes
+2026/04/14-12:43:09.290 2bb0 compacted to: files[ 0 1 22 0 0 0 0 ]
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #811
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #829
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #830
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #831
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #832
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #833
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #834
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #835
+2026/04/14-12:43:09.291 2bb0 Delete type=2 #840
+2026/04/14-12:43:09.340 2bb0 Compacting 1@1 + 11@2 files
+2026/04/14-12:43:09.409 2bb0 Generated table #849@1: 54256 keys, 2225413 bytes
+2026/04/14-12:43:09.464 2bb0 Generated table #850@1: 43740 keys, 2206406 bytes
+2026/04/14-12:43:09.521 2bb0 Generated table #851@1: 2327 keys, 2153543 bytes
+2026/04/14-12:43:09.548 2bb0 Generated table #852@1: 2633 keys, 2146445 bytes
+2026/04/14-12:43:09.595 2bb0 Generated table #853@1: 2583 keys, 2148790 bytes
+2026/04/14-12:43:09.625 2bb0 Generated table #854@1: 1759 keys, 2147535 bytes
+2026/04/14-12:43:09.654 2bb0 Generated table #855@1: 3003 keys, 2145702 bytes
+2026/04/14-12:43:09.692 2bb0 Generated table #856@1: 3661 keys, 2148848 bytes
+2026/04/14-12:43:09.740 2bb0 Generated table #857@1: 22971 keys, 2191991 bytes
+2026/04/14-12:43:09.814 2bb0 Generated table #858@1: 32492 keys, 2264556 bytes
+2026/04/14-12:43:09.820 2bb0 Generated table #859@1: 1685 keys, 130768 bytes
+2026/04/14-12:43:09.820 2bb0 Compacted 1@1 + 11@2 files => 21909997 bytes
+2026/04/14-12:43:09.820 2bb0 compacted to: files[ 0 0 22 0 0 0 0 ]
