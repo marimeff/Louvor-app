@@ -52,58 +52,10 @@ function Escala() {
     return "";
   };
 
-  // 📅 GERAR DATAS (domingo e terça)
-  const gerarDatas = () => {
-    const datasGeradas = [];
-    const data = new Date(ano, mes - 1, 1);
 
-    while (data.getMonth() === mes - 1) {
-      const diaSemana = data.getDay();
 
-      // 0 = domingo | 2 = terça
-      if (diaSemana === 0 || diaSemana === 2) {
-        datasGeradas.push(new Date(data));
-      }
 
-      data.setDate(data.getDate() + 1);
-    }
 
-    setDatas(datasGeradas);
-  };
-
-  // 👥 BUSCAR MEMBROS ATIVOS
-  const buscarMembros = async () => {
-    const res = await fetch("http://localhost:3000/membros");
-    const data = await res.json();
-
-    setMembros(data.filter((m) => m.ativo));
-  };
-
-  //Gerar imagem
-  const gerarImagem = async () => {
-  const elemento = document.getElementById("escala-print");
-
-  const canvas = await html2canvas(elemento);
-  const imagem = canvas.toDataURL("image/png");
-
-  return imagem;
-};
-
-//Baixar imagem
-const baixarImagem = (base64) => {
-  const link = document.createElement("a");
-  link.href = base64;
-  link.download = "escala.png";
-  link.click();
-};
-
-//abrir whatsapp
-const abrirWhatsApp = () => {
-  const numero = "5531984836143";
-  const mensagem = encodeURIComponent("Escala do mês pronta 🎶");
-
-  window.open(`https://wa.me/${numero}?text=${mensagem}`, "_blank");
-};
 
   // 🚀 GERAR MATRIZ+
   const gerarMatriz = async () => {
