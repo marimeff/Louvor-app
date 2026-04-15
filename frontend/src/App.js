@@ -3,9 +3,14 @@ import Membros from "./pages/Membros";
 import Indisponibilidade from "./pages/Indisponibilidade";
 import Escalas from "./pages/Escalas";
 import Historico from "./pages/Historico";
+import Login from "./pages/Login";
 
 function App() {
   const [pagina, setPagina] = useState("membros");
+  const usuario = localStorage.getItem("usuario");
+  const [logado, setLogado] = useState(
+  localStorage.getItem("logado") === "true"
+);
 
   const renderPagina = () => {
     switch (pagina) {
@@ -21,6 +26,10 @@ function App() {
          return <Historico />;
     }
   };
+
+  if (!logado) {
+  return <Login onLogin={() => setLogado(true)}/>;
+}
 
   return (
     <div style={{ display: "flex", minHeight: "100vh" }}>
